@@ -141,52 +141,52 @@ const results =
 //Массив с вопросами
 const questions = 
 [
-	new Question("2342314234325235", 
+	new Question("Какая часть речи указывает лицо?", 
 	[
-		new Answer("213123213", 0),
-		new Answer("3", 0),
-		new Answer("4", 1),
-		new Answer("0", 0)
+		new Answer("Имя существительное", 0),
+		new Answer("Глагол", 0),
+		new Answer("Местоимение", 1),
+		new Answer("Числительное", 0)
 	]),
 
-	new Question("2 * 2 = ", 
+	new Question("Какая часть речи отвечает на вопросы кто?что?", 
 	[
-		new Answer("2", 0),
-		new Answer("3", 0),
-		new Answer("4", 1),
-		new Answer("0", 0)
+		new Answer("Деепричастие", 0),
+		new Answer("Причастие", 0),
+		new Answer("Имя существительное", 1),
+		new Answer("Наречие", 0)
 	]),
 
-	new Question("2 / 2 = ", 
+	new Question("Какая часть речи обозначает признак действия?", 
 	[
-		new Answer("0", 0),
-		new Answer("1", 1),
-		new Answer("2", 0),
-		new Answer("3", 0)
+		new Answer("Причастие", 0),
+		new Answer("Наречие", 1),
+		new Answer("Глагол", 0),
+		new Answer("Категория состояния", 0)
 	]),
 
-	new Question("2 - 2 = ", 
+	new Question("Какая часть речи обозначает состояние живых существ, природы, окружающей среды ? ", 
 	[
-		new Answer("0", 1),
-		new Answer("1", 0),
-		new Answer("2", 0),
-		new Answer("3", 0)
+		new Answer("Категория состояния", 1),
+		new Answer("Имя существительное", 0),
+		new Answer("Имя прилагательное2", 0),
+		new Answer("Местоимение", 0)
 	]),
 
-	new Question("2 + 2 * 2 = ", 
+	new Question("Какая часть речи обозначает признак, свойство или принадлежность признака предмету ? ", 
 	[
-		new Answer("4", 0),
-		new Answer("6", 1),
-		new Answer("8", 0),
-		new Answer("10", 0)
+		new Answer("Причастие", 0),
+		new Answer("Имя прилагательное", 1),
+		new Answer("Местоимение", 0),
+		new Answer("Числительное", 0)
 	]),
 
-	new Question("2 + 2 / 2 = ", 
+	new Question("Какая часть речи обозначает количество или порядок при счёте?", 
 	[
-		new Answer("1", 0),
-		new Answer("2", 0),
-		new Answer("3", 1),
-		new Answer("4", 0)
+		new Answer("Деепричастие", 0),
+		new Answer("Глагол", 0),
+		new Answer("Числительное", 1),
+		new Answer("Категория состояния", 0)
 	])
 ];
 
