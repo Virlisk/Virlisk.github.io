@@ -47,14 +47,19 @@ body, html
 
 .carousel-control-prev{
 	margin-top: 460px;
-	width: 200px; 
+	width: 100px; 
 	height:100px;
 	position: fixed;
 }
 
 .carousel-control-next{
 	margin-top: 460px;
-	width: 200px; 
+	width: 100px; 
 	height:100px;
 	position: fixed;
+}
+.main-display {
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
