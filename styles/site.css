@@ -47,14 +47,14 @@ body, html
 
 .carousel-control-prev{
 	margin-top: 460px;
-	width: 100px; 
+	width: 200px; 
 	height:100px;
 	position: fixed;
 }
 
 .carousel-control-next{
 	margin-top: 460px;
-	width: 100px; 
+	width: 200px; 
 	height:100px;
 	position: fixed;
 }
